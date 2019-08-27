@@ -1,8 +1,6 @@
-import buttons from './buttons'
+import YButton from './buttons'
 
-const components = {
-    buttons
-}
+const components = [YButton]
 
 const install = function (Vue) {
     if (install.installed) return
@@ -15,5 +13,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
     install,
-    buttons
+    YButton
 }

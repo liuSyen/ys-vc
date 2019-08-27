@@ -1,12 +1,11 @@
 <template>
     <div class="free-buttons" :type="type">
-
     </div>
 </template>
 
 <script>
 export default {
-    name: 'buttons',
+    name: 'YButton',
     data () {
         return {
             aaa: ''
