@@ -1,14 +1,16 @@
 {
-  "name": "ysui",
+  "name": "ys-vc",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "lib": "vue-cli-service build --target lib --name ys-vc --dest lib packages/index.js",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-polyfill": "^6.26.0",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",

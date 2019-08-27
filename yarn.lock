@@ -905,6 +905,16 @@
   dependencies:
     eslint-config-prettier "^6.0.0"
 
+"@vue/eslint-config-standard@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.npm.taobao.org/@vue/eslint-config-standard/download/@vue/eslint-config-standard-4.0.0.tgz#6be447ee674e3b0f733c584098fd9a22e6d76fcd"
+  dependencies:
+    eslint-config-standard "^12.0.0"
+    eslint-plugin-import "^2.14.0"
+    eslint-plugin-node "^8.0.0"
+    eslint-plugin-promise "^4.0.1"
+    eslint-plugin-standard "^4.0.0"
+
 "@vue/preload-webpack-plugin@^1.1.0":
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/@vue/preload-webpack-plugin/download/@vue/preload-webpack-plugin-1.1.1.tgz#18723530d304f443021da2292d6ec9502826104a"
@@ -1248,6 +1258,13 @@ array-flatten@^2.1.0:
   version "2.1.2"
   resolved "https://registry.npm.taobao.org/array-flatten/download/array-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
 
+array-includes@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.npm.taobao.org/array-includes/download/array-includes-3.0.3.tgz#184b48f62d92d7452bb31b323165c7f8bd02266d"
+  dependencies:
+    define-properties "^1.1.2"
+    es-abstract "^1.7.0"
+
 array-union@^1.0.1, array-union@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/array-union/download/array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39"
@@ -1486,6 +1503,14 @@ babel-plugin-transform-strict-mode@^6.24.1:
   dependencies:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
+
+babel-polyfill@^6.26.0:
+  version "6.26.0"
+  resolved "https://registry.npm.taobao.org/babel-polyfill/download/babel-polyfill-6.26.0.tgz#379937abc67d7895970adc621f284cd966cf2153"
+  dependencies:
+    babel-runtime "^6.26.0"
+    core-js "^2.5.0"
+    regenerator-runtime "^0.10.5"
 
 babel-preset-jest@^23.2.0:
   version "23.2.0"
@@ -2217,6 +2242,10 @@ constants-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/constants-browserify/download/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
 
+contains-path@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npm.taobao.org/contains-path/download/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
+
 content-disposition@0.5.3:
   version "0.5.3"
   resolved "https://registry.npm.taobao.org/content-disposition/download/content-disposition-0.5.3.tgz#e130caf7e7279087c5616c2007d0485698984fbd"
@@ -2752,6 +2781,13 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
+doctrine@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npm.taobao.org/doctrine/download/doctrine-1.5.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdoctrine%2Fdownload%2Fdoctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
+  dependencies:
+    esutils "^2.0.2"
+    isarray "^1.0.0"
+
 doctrine@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/doctrine/download/doctrine-2.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdoctrine%2Fdownload%2Fdoctrine-2.1.0.tgz#5cd01fc101621b42c4cd7f5d1a66243716d3f39d"
@@ -2946,7 +2982,7 @@ error-stack-parser@^2.0.0:
   dependencies:
     stackframe "^1.0.4"
 
-es-abstract@^1.12.0, es-abstract@^1.4.3, es-abstract@^1.5.1:
+es-abstract@^1.12.0, es-abstract@^1.4.3, es-abstract@^1.5.1, es-abstract@^1.7.0:
   version "1.13.0"
   resolved "https://registry.npm.taobao.org/es-abstract/download/es-abstract-1.13.0.tgz#ac86145fdd5099d8dd49558ccba2eaf9b88e24e9"
   dependencies:
@@ -2990,6 +3026,17 @@ eslint-config-prettier@^6.0.0:
   dependencies:
     get-stdin "^6.0.0"
 
+eslint-config-standard@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.npm.taobao.org/eslint-config-standard/download/eslint-config-standard-12.0.0.tgz#638b4c65db0bd5a41319f96bba1f15ddad2107d9"
+
+eslint-import-resolver-node@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.npm.taobao.org/eslint-import-resolver-node/download/eslint-import-resolver-node-0.3.2.tgz#58f15fb839b8d0576ca980413476aab2472db66a"
+  dependencies:
+    debug "^2.6.9"
+    resolve "^1.5.0"
+
 eslint-loader@^2.1.2:
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/eslint-loader/download/eslint-loader-2.2.1.tgz#28b9c12da54057af0845e2a6112701a2f6bf8337"
@@ -3000,11 +3047,60 @@ eslint-loader@^2.1.2:
     object-hash "^1.1.4"
     rimraf "^2.6.1"
 
+eslint-module-utils@^2.4.0:
+  version "2.4.1"
+  resolved "https://registry.npm.taobao.org/eslint-module-utils/download/eslint-module-utils-2.4.1.tgz#7b4675875bf96b0dbf1b21977456e5bb1f5e018c"
+  dependencies:
+    debug "^2.6.8"
+    pkg-dir "^2.0.0"
+
+eslint-plugin-es@^1.3.1:
+  version "1.4.0"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-es/download/eslint-plugin-es-1.4.0.tgz#475f65bb20c993fc10e8c8fe77d1d60068072da6"
+  dependencies:
+    eslint-utils "^1.3.0"
+    regexpp "^2.0.1"
+
+eslint-plugin-import@^2.14.0:
+  version "2.18.2"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-import/download/eslint-plugin-import-2.18.2.tgz#02f1180b90b077b33d447a17a2326ceb400aceb6"
+  dependencies:
+    array-includes "^3.0.3"
+    contains-path "^0.1.0"
+    debug "^2.6.9"
+    doctrine "1.5.0"
+    eslint-import-resolver-node "^0.3.2"
+    eslint-module-utils "^2.4.0"
+    has "^1.0.3"
+    minimatch "^3.0.4"
+    object.values "^1.1.0"
+    read-pkg-up "^2.0.0"
+    resolve "^1.11.0"
+
+eslint-plugin-node@^8.0.0:
+  version "8.0.1"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-node/download/eslint-plugin-node-8.0.1.tgz#55ae3560022863d141fa7a11799532340a685964"
+  dependencies:
+    eslint-plugin-es "^1.3.1"
+    eslint-utils "^1.3.1"
+    ignore "^5.0.2"
+    minimatch "^3.0.4"
+    resolve "^1.8.1"
+    semver "^5.5.0"
+
 eslint-plugin-prettier@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/eslint-plugin-prettier/download/eslint-plugin-prettier-3.1.0.tgz#8695188f95daa93b0dc54b249347ca3b79c4686d"
   dependencies:
     prettier-linter-helpers "^1.0.0"
+
+eslint-plugin-promise@^4.0.1:
+  version "4.2.1"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-promise/download/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
+
+eslint-plugin-standard@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-standard/download/eslint-plugin-standard-4.0.1.tgz?cache=0&sync_timestamp=1566246326407&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-plugin-standard%2Fdownload%2Feslint-plugin-standard-4.0.1.tgz#ff0519f7ffaff114f76d1bd7c3996eef0f6e20b4"
 
 eslint-plugin-vue@^4.7.1:
   version "4.7.1"
@@ -3032,7 +3128,7 @@ eslint-scope@^4.0.0, eslint-scope@^4.0.3:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-utils@^1.3.1:
+eslint-utils@^1.3.0, eslint-utils@^1.3.1:
   version "1.4.2"
   resolved "https://registry.npm.taobao.org/eslint-utils/download/eslint-utils-1.4.2.tgz#166a5180ef6ab7eb462f162fd0e6f2463d7309ab"
   dependencies:
@@ -3576,7 +3672,7 @@ find-up@^1.0.0:
     path-exists "^2.0.0"
     pinkie-promise "^2.0.0"
 
-find-up@^2.1.0:
+find-up@^2.0.0, find-up@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/find-up/download/find-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
   dependencies:
@@ -4172,6 +4268,10 @@ ignore@^3.3.3, ignore@^3.3.5:
 ignore@^4.0.3, ignore@^4.0.6:
   version "4.0.6"
   resolved "https://registry.npm.taobao.org/ignore/download/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
+
+ignore@^5.0.2:
+  version "5.1.4"
+  resolved "https://registry.npm.taobao.org/ignore/download/ignore-5.1.4.tgz#84b7b3dbe64552b6ef0eca99f6743dbec6d97adf"
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -5317,6 +5417,15 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
+load-json-file@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/load-json-file/download/load-json-file-2.0.0.tgz#7947e42149af80d696cbf797bcaabcfe1fe29ca8"
+  dependencies:
+    graceful-fs "^4.1.2"
+    parse-json "^2.2.0"
+    pify "^2.0.0"
+    strip-bom "^3.0.0"
+
 loader-fs-cache@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/loader-fs-cache/download/loader-fs-cache-1.0.2.tgz#54cedf6b727e1779fd8f01205f05f6e88706f086"
@@ -6384,6 +6493,12 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+path-type@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/path-type/download/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
+  dependencies:
+    pify "^2.0.0"
+
 path-type@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/path-type/download/path-type-3.0.0.tgz#cef31dc8e0a1a3bb0d105c0cd97cf3bf47f4e36f"
@@ -7009,6 +7124,13 @@ read-pkg-up@^1.0.1:
     find-up "^1.0.0"
     read-pkg "^1.0.0"
 
+read-pkg-up@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/read-pkg-up/download/read-pkg-up-2.0.0.tgz#6b72a8048984e0c41e79510fd5e9fa99b3b549be"
+  dependencies:
+    find-up "^2.0.0"
+    read-pkg "^2.0.0"
+
 read-pkg@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/read-pkg/download/read-pkg-1.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fread-pkg%2Fdownload%2Fread-pkg-1.1.0.tgz#f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28"
@@ -7016,6 +7138,14 @@ read-pkg@^1.0.0:
     load-json-file "^1.0.0"
     normalize-package-data "^2.3.2"
     path-type "^1.0.0"
+
+read-pkg@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/read-pkg/download/read-pkg-2.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fread-pkg%2Fdownload%2Fread-pkg-2.0.0.tgz#8ef1c0623c6a6db0dc6713c4bfac46332b2368f8"
+  dependencies:
+    load-json-file "^2.0.0"
+    normalize-package-data "^2.3.2"
+    path-type "^2.0.0"
 
 read-pkg@^5.0.0:
   version "5.2.0"
@@ -7069,6 +7199,10 @@ regenerate-unicode-properties@^8.1.0:
 regenerate@^1.2.1, regenerate@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/regenerate/download/regenerate-1.4.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerate%2Fdownload%2Fregenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
+
+regenerator-runtime@^0.10.5:
+  version "0.10.5"
+  resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.10.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
 
 regenerator-runtime@^0.11.0:
   version "0.11.1"
@@ -7272,7 +7406,7 @@ resolve@1.1.7:
   version "1.1.7"
   resolved "https://registry.npm.taobao.org/resolve/download/resolve-1.1.7.tgz?cache=0&sync_timestamp=1564641434608&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fresolve%2Fdownload%2Fresolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
-resolve@^1.10.0, resolve@^1.12.0, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.8.1:
+resolve@^1.10.0, resolve@^1.11.0, resolve@^1.12.0, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.8.1:
   version "1.12.0"
   resolved "https://registry.npm.taobao.org/resolve/download/resolve-1.12.0.tgz?cache=0&sync_timestamp=1564641434608&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fresolve%2Fdownload%2Fresolve-1.12.0.tgz#3fc644a35c84a48554609ff26ec52b66fa577df6"
   dependencies:
