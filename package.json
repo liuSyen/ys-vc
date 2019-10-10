@@ -1,6 +1,6 @@
 {
   "name": "ys-vc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -13,9 +13,12 @@
     "babel-polyfill": "^6.26.0",
     "cheerio": "^1.0.0-rc.3",
     "core-js": "^2.6.5",
+    "html-loader": "^0.5.5",
+    "hyperdown": "^2.4.2",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "markdown-it-container": "^2.0.0",
+    "markdown-loader": "^5.1.0",
     "vue": "^2.6.10",
     "vue-markdown-loader": "^2.4.1",
     "vue-router": "^3.0.3",

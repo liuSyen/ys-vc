@@ -1,17 +1,19 @@
 # Button 按钮
-----
+---------
 ### 基础用法
-使用```type```、```plain```和```round```属性来定义 Button 的样式。
+使用
+```type```、```plain```和```round```
+属性来定义 Button 的样式。
 
 <div class="demo-block">
-  <div>
+  <demo-block>
     <y-button>默认按钮</y-button>
     <y-button type="primary">主要按钮</y-button>
     <y-button type="success">成功按钮</y-button>
     <y-button type="info">信息按钮</y-button>
     <y-button type="warning">警告按钮</y-button>
     <y-button type="danger">危险按钮</y-button>
-  </div>
+  </demo-block>
   <div class="m-10">
     <y-button plain>朴素按钮</y-button>
     <y-button type="primary" plain>主要按钮</y-button>
